@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100100012CE8000100000001 /* NurIbadahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100012CE8000100000001 /* NurIbadahApp.swift */; };
+		100100022CE8000100000002 /* PrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100022CE8000100000002 /* PrayerTime.swift */; };
+		100100032CE8000100000003 /* CityLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100032CE8000100000003 /* CityLocation.swift */; };
+		100100042CE8000100000004 /* DzikirItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100042CE8000100000004 /* DzikirItem.swift */; };
+		100100052CE8000100000005 /* MuhasabahNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100052CE8000100000005 /* MuhasabahNote.swift */; };
+		100100062CE8000100000006 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100062CE8000100000006 /* AppSettings.swift */; };
+		100100072CE8000100000007 /* PrayerCalculationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100072CE8000100000007 /* PrayerCalculationService.swift */; };
+		100100082CE8000100000008 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100082CE8000100000008 /* LocationManager.swift */; };
+		100100092CE8000100000009 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100092CE8000100000009 /* NotificationService.swift */; };
+		1001000A2CE800010000000A /* HijriDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001000A2CE800010000000A /* HijriDateService.swift */; };
+		1001000B2CE800010000000B /* ImageCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001000B2CE800010000000B /* ImageCompressor.swift */; };
+		1001000C2CE800010000000C /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001000C2CE800010000000C /* DataLoader.swift */; };
+		1001000D2CE800010000000D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001000D2CE800010000000D /* AppTheme.swift */; };
+		1001000E2CE800010000000E /* PrayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001000E2CE800010000000E /* PrayerViewModel.swift */; };
+		1001000F2CE800010000000F /* DzikirViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001000F2CE800010000000F /* DzikirViewModel.swift */; };
+		100100102CE8000100000010 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100102CE8000100000010 /* MainTabView.swift */; };
+		100100112CE8000100000011 /* CardBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100112CE8000100000011 /* CardBackgroundModifier.swift */; };
+		100100122CE8000100000012 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100122CE8000100000012 /* CircularProgressView.swift */; };
+		100100132CE8000100000013 /* MoodBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100132CE8000100000013 /* MoodBadgeView.swift */; };
+		100100142CE8000100000014 /* PrayerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100142CE8000100000014 /* PrayerHomeView.swift */; };
+		100100152CE8000100000015 /* PrayerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100152CE8000100000015 /* PrayerCardView.swift */; };
+		100100162CE8000100000016 /* CityPickerSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100162CE8000100000016 /* CityPickerSheetView.swift */; };
+		100100172CE8000100000017 /* HeaderCustomizerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100172CE8000100000017 /* HeaderCustomizerSheet.swift */; };
+		100100182CE8000100000018 /* DzikirHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100182CE8000100000018 /* DzikirHomeView.swift */; };
+		100100192CE8000100000019 /* DzikirCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200100192CE8000100000019 /* DzikirCardView.swift */; };
+		1001001A2CE800010000001A /* DzikirFocusModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001001A2CE800010000001A /* DzikirFocusModalView.swift */; };
+		1001001B2CE800010000001B /* MuhasabahHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001001B2CE800010000001B /* MuhasabahHomeView.swift */; };
+		1001001C2CE800010000001C /* MuhasabahDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001001C2CE800010000001C /* MuhasabahDetailView.swift */; };
+		1001001D2CE800010000001D /* AddEditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001001D2CE800010000001D /* AddEditNoteView.swift */; };
+		1001001E2CE800010000001E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001001E2CE800010000001E /* SettingsView.swift */; };
+		1001001F2CE800010000001F /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001001F2CE800010000001F /* AboutAppView.swift */; };
+		100100202CE8000100000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200100202CE8000100000020 /* Assets.xcassets */; };
+		100100212CE8000100000021 /* IndonesianCities.json in Resources */ = {isa = PBXBuildFile; fileRef = 200100212CE8000100000021 /* IndonesianCities.json */; };
+		100100222CE8000100000022 /* DzikirData.json in Resources */ = {isa = PBXBuildFile; fileRef = 200100222CE8000100000022 /* DzikirData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000100002CE8000000000001 /* NurIbadah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurIbadah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200100012CE8000100000001 /* NurIbadahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurIbadahApp.swift; sourceTree = "<group>"; };
+		200100022CE8000100000002 /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
+		200100032CE8000100000003 /* CityLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocation.swift; sourceTree = "<group>"; };
+		200100042CE8000100000004 /* DzikirItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DzikirItem.swift; sourceTree = "<group>"; };
+		200100052CE8000100000005 /* MuhasabahNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuhasabahNote.swift; sourceTree = "<group>"; };
+		200100062CE8000100000006 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		200100072CE8000100000007 /* PrayerCalculationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCalculationService.swift; sourceTree = "<group>"; };
+		200100082CE8000100000008 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		200100092CE8000100000009 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2001000A2CE800010000000A /* HijriDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HijriDateService.swift; sourceTree = "<group>"; };
+		2001000B2CE800010000000B /* ImageCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompressor.swift; sourceTree = "<group>"; };
+		2001000C2CE800010000000C /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		2001000D2CE800010000000D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		2001000E2CE800010000000E /* PrayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewModel.swift; sourceTree = "<group>"; };
+		2001000F2CE800010000000F /* DzikirViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DzikirViewModel.swift; sourceTree = "<group>"; };
+		200100102CE8000100000010 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		200100112CE8000100000011 /* CardBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackgroundModifier.swift; sourceTree = "<group>"; };
+		200100122CE8000100000012 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		200100132CE8000100000013 /* MoodBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBadgeView.swift; sourceTree = "<group>"; };
+		200100142CE8000100000014 /* PrayerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerHomeView.swift; sourceTree = "<group>"; };
+		200100152CE8000100000015 /* PrayerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCardView.swift; sourceTree = "<group>"; };
+		200100162CE8000100000016 /* CityPickerSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPickerSheetView.swift; sourceTree = "<group>"; };
+		200100172CE8000100000017 /* HeaderCustomizerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCustomizerSheet.swift; sourceTree = "<group>"; };
+		200100182CE8000100000018 /* DzikirHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DzikirHomeView.swift; sourceTree = "<group>"; };
+		200100192CE8000100000019 /* DzikirCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DzikirCardView.swift; sourceTree = "<group>"; };
+		2001001A2CE800010000001A /* DzikirFocusModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DzikirFocusModalView.swift; sourceTree = "<group>"; };
+		2001001B2CE800010000001B /* MuhasabahHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuhasabahHomeView.swift; sourceTree = "<group>"; };
+		2001001C2CE800010000001C /* MuhasabahDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuhasabahDetailView.swift; sourceTree = "<group>"; };
+		2001001D2CE800010000001D /* AddEditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditNoteView.swift; sourceTree = "<group>"; };
+		2001001E2CE800010000001E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2001001F2CE800010000001F /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
+		200100202CE8000100000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200100212CE8000100000021 /* IndonesianCities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = IndonesianCities.json; sourceTree = "<group>"; };
+		200100222CE8000100000022 /* DzikirData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DzikirData.json; sourceTree = "<group>"; };
+		200100232CE8000100000023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300100002CE8000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400100002CE8000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400100012CE8000000000002 /* NurIbadah */,
+				400100022CE8000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400100012CE8000000000002 /* NurIbadah */ = {
+			isa = PBXGroup;
+			children = (
+				400100032CE8000000000004 /* App */,
+				400100042CE8000000000005 /* Models */,
+				400100052CE8000000000006 /* Services */,
+				400100062CE8000000000007 /* ViewModels */,
+				400100072CE8000000000008 /* Views */,
+				400100082CE8000000000009 /* Theme */,
+				400100092CE800000000000A /* Resources */,
+				200100202CE8000100000020 /* Assets.xcassets */,
+				200100232CE8000100000023 /* Info.plist */,
+			);
+			path = NurIbadah;
+			sourceTree = "<group>";
+		};
+		400100022CE8000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000100002CE8000000000001 /* NurIbadah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400100032CE8000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				200100012CE8000100000001 /* NurIbadahApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		400100042CE8000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				200100022CE8000100000002 /* PrayerTime.swift */,
+				200100032CE8000100000003 /* CityLocation.swift */,
+				200100042CE8000100000004 /* DzikirItem.swift */,
+				200100052CE8000100000005 /* MuhasabahNote.swift */,
+				200100062CE8000100000006 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		400100052CE8000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				200100072CE8000100000007 /* PrayerCalculationService.swift */,
+				200100082CE8000100000008 /* LocationManager.swift */,
+				200100092CE8000100000009 /* NotificationService.swift */,
+				2001000A2CE800010000000A /* HijriDateService.swift */,
+				2001000B2CE800010000000B /* ImageCompressor.swift */,
+				2001000C2CE800010000000C /* DataLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		400100062CE8000000000007 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2001000E2CE800010000000E /* PrayerViewModel.swift */,
+				2001000F2CE800010000000F /* DzikirViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		400100072CE8000000000008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				200100102CE8000100000010 /* MainTabView.swift */,
+				4001000A2CE800000000000B /* Components */,
+				4001000B2CE800000000000C /* Prayer */,
+				4001000C2CE800000000000D /* Dzikir */,
+				4001000D2CE800000000000E /* Muhasabah */,
+				4001000E2CE800000000000F /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4001000A2CE800000000000B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				200100112CE8000100000011 /* CardBackgroundModifier.swift */,
+				200100122CE8000100000012 /* CircularProgressView.swift */,
+				200100132CE8000100000013 /* MoodBadgeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4001000B2CE800000000000C /* Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				200100142CE8000100000014 /* PrayerHomeView.swift */,
+				200100152CE8000100000015 /* PrayerCardView.swift */,
+				200100162CE8000100000016 /* CityPickerSheetView.swift */,
+				200100172CE8000100000017 /* HeaderCustomizerSheet.swift */,
+			);
+			path = Prayer;
+			sourceTree = "<group>";
+		};
+		4001000C2CE800000000000D /* Dzikir */ = {
+			isa = PBXGroup;
+			children = (
+				200100182CE8000100000018 /* DzikirHomeView.swift */,
+				200100192CE8000100000019 /* DzikirCardView.swift */,
+				2001001A2CE800010000001A /* DzikirFocusModalView.swift */,
+			);
+			path = Dzikir;
+			sourceTree = "<group>";
+		};
+		4001000D2CE800000000000E /* Muhasabah */ = {
+			isa = PBXGroup;
+			children = (
+				2001001B2CE800010000001B /* MuhasabahHomeView.swift */,
+				2001001C2CE800010000001C /* MuhasabahDetailView.swift */,
+				2001001D2CE800010000001D /* AddEditNoteView.swift */,
+			);
+			path = Muhasabah;
+			sourceTree = "<group>";
+		};
+		4001000E2CE800000000000F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2001001E2CE800010000001E /* SettingsView.swift */,
+				2001001F2CE800010000001F /* AboutAppView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		400100082CE8000000000009 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2001000D2CE800010000000D /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		400100092CE800000000000A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				200100212CE8000100000021 /* IndonesianCities.json */,
+				200100222CE8000100000022 /* DzikirData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500100002CE8000000000001 /* NurIbadah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600100002CE8000000000001 /* Build configuration list for PBXNativeTarget "NurIbadah" */;
+			buildPhases = (
+				700100002CE8000000000001 /* Sources */,
+				300100002CE8000000000001 /* Frameworks */,
+				800100002CE8000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NurIbadah;
+			productName = NurIbadah;
+			productReference = 000100002CE8000000000001 /* NurIbadah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900100002CE8000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					500100002CE8000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 600100012CE8000000000002 /* Build configuration list for PBXProject "NurIbadah" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400100002CE8000000000001;
+			productRefGroup = 400100022CE8000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500100002CE8000000000001 /* NurIbadah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800100002CE8000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100100202CE8000100000020 /* Assets.xcassets in Resources */,
+				100100212CE8000100000021 /* IndonesianCities.json in Resources */,
+				100100222CE8000100000022 /* DzikirData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700100002CE8000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100100012CE8000100000001 /* NurIbadahApp.swift in Sources */,
+				100100022CE8000100000002 /* PrayerTime.swift in Sources */,
+				100100032CE8000100000003 /* CityLocation.swift in Sources */,
+				100100042CE8000100000004 /* DzikirItem.swift in Sources */,
+				100100052CE8000100000005 /* MuhasabahNote.swift in Sources */,
+				100100062CE8000100000006 /* AppSettings.swift in Sources */,
+				100100072CE8000100000007 /* PrayerCalculationService.swift in Sources */,
+				100100082CE8000100000008 /* LocationManager.swift in Sources */,
+				100100092CE8000100000009 /* NotificationService.swift in Sources */,
+				1001000A2CE800010000000A /* HijriDateService.swift in Sources */,
+				1001000B2CE800010000000B /* ImageCompressor.swift in Sources */,
+				1001000C2CE800010000000C /* DataLoader.swift in Sources */,
+				1001000D2CE800010000000D /* AppTheme.swift in Sources */,
+				1001000E2CE800010000000E /* PrayerViewModel.swift in Sources */,
+				1001000F2CE800010000000F /* DzikirViewModel.swift in Sources */,
+				100100102CE8000100000010 /* MainTabView.swift in Sources */,
+				100100112CE8000100000011 /* CardBackgroundModifier.swift in Sources */,
+				100100122CE8000100000012 /* CircularProgressView.swift in Sources */,
+				100100132CE8000100000013 /* MoodBadgeView.swift in Sources */,
+				100100142CE8000100000014 /* PrayerHomeView.swift in Sources */,
+				100100152CE8000100000015 /* PrayerCardView.swift in Sources */,
+				100100162CE8000100000016 /* CityPickerSheetView.swift in Sources */,
+				100100172CE8000100000017 /* HeaderCustomizerSheet.swift in Sources */,
+				100100182CE8000100000018 /* DzikirHomeView.swift in Sources */,
+				100100192CE8000100000019 /* DzikirCardView.swift in Sources */,
+				1001001A2CE800010000001A /* DzikirFocusModalView.swift in Sources */,
+				1001001B2CE800010000001B /* MuhasabahHomeView.swift in Sources */,
+				1001001C2CE800010000001C /* MuhasabahDetailView.swift in Sources */,
+				1001001D2CE800010000001D /* AddEditNoteView.swift in Sources */,
+				1001001E2CE800010000001E /* SettingsView.swift in Sources */,
+				1001001F2CE800010000001F /* AboutAppView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00100012CE8000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NurIbadah/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuribadah.offlineapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00100022CE8000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NurIbadah/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuribadah.offlineapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B00100012CE8000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00100022CE8000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600100002CE8000000000001 /* Build configuration list for PBXNativeTarget "NurIbadah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00100012CE8000000000001 /* Debug */,
+				A00100022CE8000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600100012CE8000000000002 /* Build configuration list for PBXProject "NurIbadah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00100012CE8000000000001 /* Debug */,
+				B00100022CE8000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 900100002CE8000000000001 /* Project object */;
+}
